@@ -2,7 +2,7 @@
 source /home/vagrant/.bashrc
 echo "Installing ruby 1.8..."
 rvm install ruby-1.8
-rvm use rvm use ruby-1.8
+rvm use 1.8
 echo "Installing rails..."
 gem install rails
 cd /vagrant
